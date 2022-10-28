@@ -20,7 +20,7 @@ public class BusControlador {
     @Autowired
     BusRepositorio busRepositorio;
 
-    @GetMapping("/buses")
+    @GetMapping("/getbuses")
     public List<Bus> buses()
     {
 
